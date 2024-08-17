@@ -1,0 +1,133 @@
+/*HTML*/
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coastal Escapes - Beach Adventures</title>
+    <link rel="stylesheet"href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image:url('coast.jpg'); 
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+            background-repeat: no-repeat;
+            
+        }
+        header {
+            /*background:#00aaff;*/
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .button {
+            background: #ff6600;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: #cc5200;
+        }
+        .features, .adventures {
+            margin: 20px 0;
+        }
+        .features ul, .adventures ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li, .adventures li {
+            margin: 10px 0;
+        }
+        .contact {
+            margin: 20px 0;
+        }
+        .social-media a {
+            margin-right: 10px;
+            color: #7FFFD4;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Discover Your Perfect Beach Adventure</h1>
+        <p>Welcome to Coastal Escapes!</p>
+    </header>
+
+    <div class="container">
+        
+        
+        <section>
+            <h2>Why Choose Coastal Escapes?</h2>
+            <div class="features">
+                <ul>
+                    <li><strong>Diverse Adventures:</strong> From surfing the waves to snorkeling vibrant reefs, our activities cater to all skill levels.</li>
+                    <li><strong>Unbeatable Locations:</strong> Experience the world’s most stunning beaches and hidden coves, handpicked for their natural beauty and adventure potential.</li>
+                    <li><strong>Expert Guides:</strong> Our team of local experts ensures you get the most out of your adventure, providing tips, safety briefings, and insider knowledge.</li>
+                    <li><strong>Eco-Friendly Practices:</strong> We’re committed to preserving the natural beauty of our beaches and oceans for future generations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Adventures</h2>
+            <div class="adventures">
+                <ul>
+                    <li><strong>Surfing Lessons:</strong> Catch the perfect wave with professional instruction, whether you're a beginner or looking to refine your skills.</li>
+                    <li><strong>Snorkeling Tours:</strong> Discover vibrant marine life and stunning underwater landscapes in crystal-clear waters.</li>
+                    <li><strong>Kayaking and Paddleboarding:</strong> Explore serene coastlines and hidden coves at your own pace.</li>
+                    <li><strong>Beach Bonfires:</strong> End your day with a relaxing bonfire on the beach, complete with s’mores and stunning sunset views.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Book Your Adventure Today</h2>
+            <p>Don’t miss out on the beach adventure of a lifetime. Choose your adventure, pick your dates, and let us handle the rest. Book now and start your journey to unforgettable beach memories!</p>
+            <a href="#" class="button">Book Now</a>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need more information? Reach out to our friendly team!</p>
+            <p><strong>Email:</strong> <a href="mailto:info@coastalescapes.com">info@coastalescapes.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:18001234567">1-800-123-4567</a></p>
+            <p><strong>Address:</strong> 123 Beachfront Drive, Coastal City, CA 90210</p>
+        </section>
+
+        <section>
+            <h2>Follow us on social media for the latest updates and inspiration:</h2>
+            <div class="social-media">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Coastal Escapes – Where Every Beach Day is an Adventure</p>
+    </footer>
+</body>
+</html>
